@@ -1,0 +1,105 @@
+* {
+  scroll-behavior: smooth;
+  /* margin: 0; */
+}
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 100%;
+  color: #3d5a80;
+  background-color: #fcf7f8;
+}
+
+header {
+  text-align: center;
+  background-color: #293241;
+  color: #fcf7f8;
+  padding: 20px;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #ee6c4d;
+  width: 250px;
+  height: 250px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+header > div > p {
+  color: #e0fbfc;
+  font-size: 1.15em;
+}
+
+.header-box {
+  width: 650px;
+  margin: auto;
+}
+
+.box {
+  display: flex;
+}
+
+.menu {
+  background-color: #374458;
+  display: inline-block; /* No longer need after resume5 */
+  padding: 40px;
+}
+
+.menu > h2,
+footer > h2,
+a,
+.menu > ul {
+  color: #e0fbfc;
+  text-decoration: none;
+  list-style-type: none;
+  transition: 0.5s;
+}
+
+.menu > ul {
+  padding: 0; /* aligned the <li> elements with the <h2> */
+  font-size: 1.15em;
+}
+
+.menu > ul > li {
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+.h3-links {
+  color: #ee6c4d;
+  text-decoration: none;
+}
+
+.h3-links:hover {
+  color: #98c1d9;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #ee6c4d;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+.p-box {
+  padding-left: 35px;
+}
+
+footer {
+  background-color: #293241;
+  text-align: center;
+  padding: 15px;
+}
+
+footer > a {
+  padding: 0px 20px 0px 20px;
+}
